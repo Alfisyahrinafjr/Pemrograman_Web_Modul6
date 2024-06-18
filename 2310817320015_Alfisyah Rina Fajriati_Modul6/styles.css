@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    background: #f4f4f4;
+}
+
+.frame {
+    border: 5px solid #fcf5f5eb;
+    padding: 20px;
+    width: 50%;
+    max-width: 700px;
+    background: #fdfcfc;
+    box-shadow: 0 0 10px rgba(247, 246, 246, 0.365);
+}
+
+header {
+    background: #b0aaaa83;
+    border-bottom: 1px solid #f9f3f387;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333e9;
+    font-size: 10px;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro h2 {
+    margin: 10px 0;
+    font-size: 22px;
+    font-family: Britanic Bold;
+}
+
+.subtitle {
+    font-style: italic;
+    font-family: Candara;
+    color: #15141468;
+}
+
+.portfolio {
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-nav {
+    margin-bottom: 12px;
+}
+
+.portfolio-nav button {
+    border: none;
+    background: #fcfafa76;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 8px;
+}
+
+.portfolio-nav button.active {
+    background: #ebe5e582;
+    color: #4f4949c2;
+}
+
+.portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.portfolio-gallery img {
+    width: calc(25% - 10px);
+    height: auto;
+}
+
+footer {
+    background: #f8f8f82a;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #cfcdcd84;
+}
+
+footer p {
+    margin: 20;
+    font-size: 10px;
+    color: #666;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+}
